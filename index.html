@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block title%}home{% endblock title %}
+{% block content %}
+
+<div class="upblock">
+    <h1 class="fmd">Message Detective</h1>
+    <div class="simile">
+        <img src="../static/icon/kiKnKpyeT.png" width="40px" height="40px">
+    </div>
+    <div class="txt top">Welcome Copy nd pste messge in the first text box
+    </div>
+    <div class="txt t-top">Then indicte the pltform the messge ws sent form</div>
+    <div class="txt3">
+        <textarea id="pred_txt" name="pred_txt" placeholder="insert text to be predicted here.."></textarea>
+    </div>
+    <div class="txt4">
+        <input type="text" name="txt4" placeholder="-Message Source/Phone/Social Media's-">
+        <div class="btn">
+            <button class="db">+</button>
+            <button class="pred" href="/predict">check</button>
+        </div>
+    </div>
+</div>
+<!--stories experience-->
+<div class="user-stories">
+    
+</div>
+{% endblock content %}
+
