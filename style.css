@@ -37,7 +37,7 @@ h1.fmd{
 .hed_note{
     display: flex;
     flex-direction: column;
-    padding-top: 19px;
+    padding-top: 10px;
 }
 .nv {
     width: 50%;
