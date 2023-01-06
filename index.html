@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fraud Detective</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="comic.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function(){
+                $(".alert-danger").fadeOut(5000);
+                $(".close").click(function(){
+                    $(".alert-danger").fadeOut();
+                });
+
+                $(".alert-success").fadeOut(5000);
+                $(".open").click(function(){
+                    $(".alert-success").fadeOut(2000);
+                });
+
+                $(".burger-nav").click(function(){
+                    $("div.nv").toggleClass("open");
+                });
+            });
+        </script>
+        <style>
+            button:hover {
+                opacity: 0.5;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="h_nav"></div>
+	    <div class="lft_icn">
+		    <div class="hed_logo">
+			    <img src="spy.png" height="25px", width="25px">
+		    </div>
+		    <div class="hed_note"><h2>Fraud Detective</h2></div>
+	    </div>
+	    <div class="burger-nav">
+		    <div class="bar1"></div>
+		    <div class="bar2"></div>
+		    <div class="bar3"></div>
+	    </div>
+	    <div class="nv">
+		    <div class="home"><a href="index.html">Home</a></div>
+		    <div class="signup"><a href="signup.html">SignUp</a></div>
+        	    <div class="login"><a href="login.html">Login</a></div>
+                    <div class="blog"><a href="#">Blog</a></div>
+	    </div>
+	    </div>
+
+        </header>
+	
+	<div class="upblock">
+		<h1 class="fmd">Message Detective</h1>
+		<div class="simile">
+			<img src="../static/icon/kiKnKpyeT.png" width="40px" height="40px">
+		</div>
+		<div class="txt top">Welcome Copy nd pste messge in the first text box
+		</div>
+		<div class="txt t-top">Then indicte the pltform the messge ws sent form</div>
+		<div class="txt3">
+			<textarea id="pred_txt" name="pred_txt" placeholder="insert text to be predicted here..">
+			</textarea>
+		</div>
+		<div class="txt4">
+			<input type="text" name="txt4" placeholder="-Message Source/Phone/Social Media's-">
+			<div class="btn">
+				<button class="db">+</button>
+            			<button class="pred" href="/predict">check</button>
+        		</div>
+		</div>
+	</div>
+	<!--stories experience-->
+	<div class="user-stories">
+
+	</div>
+	<footer>
+		<div>
+			Fraud Detective<br/>
+			Say NO To Online Scams
+			<div class="cpy">
+				<p>Copyright © Ml-Bro 2022</p>
+			</div>
+		</div>
+        </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="/fraud_detective/static/menu.js"></script>
+</html>
