@@ -1,4 +1,6 @@
-
+body {
+    background-color: #93c47d;
+}
 div.all {
     max-width: 700px;
     margin-right:auto;
